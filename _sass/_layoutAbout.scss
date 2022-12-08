@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+#blogofWar {
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-family: "Permanent Marker";
+  text-shadow: 2px 2px #CBA135;
+  color: #66511B;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #CBA135;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+body.home {
+  background-color: #7FEFBD;
+.contain {
+}
+.discbox {
+  position: relative;
+  width: 400px;
+  background-color: #7FEFBD;
+  text-align: center;
+  overflow: visible;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+}
+.con {
+  width: 100%;
+  background-color: #FFF;
+  position: relative;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: #B9EFCF;
+}
+#admin {
+  max-width: 60%;
+  position: relative;
+  transform: translate(-50%,0%);
+  margin-left: 50%;
+  border-style: solid;
+  border-top-style: none;
+  border-radius: 3px;
+  border-width: 3px;
+}
+.disc, .disc1 {
+  font-family: "Acme";
+  font-size: 1.3vw;
+  color: #66511B;
+}
+.disc1 {
+}
+.options {
+  width: 200px;
+  height: 50px;
+  background-color: #CBA135;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 3px;
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+.blogBtn, .classBtn {
+  position: relative;
+  font-family: "Permanent Marker";
+  color: #7FEFBD;
+  transform: translate(-50%, -10%);
+  width: 100%;
+  text-decoration: none;
+  &.blogBtn:hover {
+      text-shadow: 2px 2px red;
+  }
+  &.classBtn:hover {
+      
+      text-shadow: 2px 2px red;
+  }
+}
+}

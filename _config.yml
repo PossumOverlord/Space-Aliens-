@@ -1,0 +1,35 @@
+# Setup
+title: Blog o' War
+disc: I will take it with me to earth!
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Specify the author for blog posts
+author:
+  name: Avic Ndugu
+  url: https://https://twitter.com/_ndugu
+  email: avicndugu1234@gmail.com
+
+# Custom vars
+version: 3.0.0

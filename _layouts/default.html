@@ -1,0 +1,10 @@
+{% include head.html %}
+<body>
+    <h1 class="title">{{site.title}}</h1>
+  <ul>
+    {% for category in page.categories %}
+    <li><a href="{{site.url | append: '/categories/'}}{{category}}">{{category}}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
